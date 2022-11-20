@@ -10,10 +10,15 @@ import Forward from '../../public/Assets/Icon/forward.svg';
 import Play from '../../public/Assets/Icon/play.svg';
 import rectangle from '../../public/Assets/Icon/Rectangle.svg';
 import Repeat from '../../public/Assets/Icon/Repeat.svg';
+import playlist from '../../public/Assets/Icon/playlist.svg';
+import line from '../../public/Assets/Icon/line.svg';
+import sound from '../../public/Assets/Icon/sound.svg';
+import speaker from '../../public/Assets/Icon/speaker.svg';
+
 
 function Footer (){
     return(
-        <Grid container item justifyContent={'space-between'} bgcolor={'red'} xs={12} >
+        <Grid container item justifyContent={'space-between'} xs={12} >
             <Grid container item xs={2} alignItems={'center'} justifyContent={'space-between'}>
                 <Grid item mx={2} pt={'5px'}>
                     <Image src={footerimg} alt=''/>
@@ -29,16 +34,26 @@ function Footer (){
                     <Crop169Icon sx={{color:'white'}}/>
                 </Grid>
             </Grid>
-            <Grid container item xs={6} bgcolor={'pink'} justifyContent={'center'}>
-                <Grid container xs={10} bgcolor='green'>
-                    
+            <Grid container item xs={7} justifyContent={'center'}>
+                <Grid container xs={4} pt={'5px'} justifyContent={'space-between'} alignItems={'center'}>
+                   <Image src={Shuffle} alt=''/>
+                   <Image src={Back} alt=''/>
+                   <Image src={Play} alt=''/>
+                   <Image src={Forward} alt=''/>
+                   <Image src={Repeat} alt=''/>
                 </Grid>
-                <Grid container xs={10} bgcolor={'yellow'}>
-
+                <Grid container xs={10} alignItems={'center'} justifyContent={'space-between'}>
+                    <Typography variant="subtitle2">0:00</Typography>
+                   <Image  src={rectangle} alt=''/>
+                   <Typography variant="subtitle2">2:50</Typography>
                 </Grid>
             </Grid>
-            <Grid container item xs={3} alignItems={'center'} justifyContent={'flex-end'}>
-                aaa
+            <Grid container item xs={1.5} mr={1} alignItems={'center'} justifyContent={'space-between'}>
+                <Image src={playlist} alt=''/>
+                <Image src={speaker} alt=''/>
+                <Image src={sound} alt=''/>
+                <Image src={line} alt=''/>
+
             </Grid>
         </Grid>
     )

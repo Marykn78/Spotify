@@ -22,7 +22,8 @@ const theme =createTheme({
         subtitle2:{
             fontSize:'12px',
             fontWeight:400,
-            lineHeight:'15px'
+            lineHeight:'15px',
+            color:'#fff'
         }
     },
     palette: {
