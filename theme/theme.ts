@@ -19,6 +19,11 @@ const theme =createTheme({
             lineHeight:'16px',
             color:'#fff'
         },
+        subtitle2:{
+            fontSize:'12px',
+            fontWeight:400,
+            lineHeight:'15px'
+        }
     },
     palette: {
         primary: {

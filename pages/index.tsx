@@ -20,7 +20,7 @@ export default function Home() {
         <Grid container item xs={12} bgcolor={'green'} height={'150px'}>
           <Typography>header</Typography>
         </Grid>
-        <Grid container item xs={12} bgcolor={'red'} height={'80%'}>
+        <Grid container item xs={12} height={'80%'}>
           <Typography>ffff</Typography>
         </Grid>
       </Grid>
