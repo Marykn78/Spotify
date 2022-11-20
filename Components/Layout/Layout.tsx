@@ -19,7 +19,7 @@ export default function Layout({ children }:AuxProps) {
         {/* <main>{children}</main> */}
         <Home/>
       </Grid>
-      <Grid xs={12} bgcolor={'black'} height={'10vh'}>
+      <Grid xs={12} bgcolor={'#181818'} height={'10vh'}>
         <Footer />
       </Grid>
     </Grid>
