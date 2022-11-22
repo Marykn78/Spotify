@@ -1,5 +1,7 @@
 import  Typography  from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
+import HeaderCards from '../Components/HeaderCards/HeaderCards'
+import MainCards from '../Components/MainCards/MainCards'
 // import { GetStaticPropsContext } from 'next'
 
 
@@ -15,16 +17,15 @@ import Grid from '@mui/material/Grid'
 // }
 export default function Home() {
   return (
-    // <div>
-      <Grid container item xs={11} bgcolor={'blue'} >
-        <Grid container item xs={12} bgcolor={'green'} height={'150px'}>
+      <Grid container item xs={12} bgcolor={'black'}>
+        {/* <Grid container item xs={12} bgcolor={'green'} height={'150px'}>
           <Typography>header</Typography>
-        </Grid>
-        <Grid container item xs={12} height={'80%'}>
-          <Typography>ffff</Typography>
+        </Grid> */}
+        <HeaderCards/>
+        <Grid container item xs={12}  height={'70%'}>
+          <MainCards/>
         </Grid>
       </Grid>
-    // </div>
   )
 }
 

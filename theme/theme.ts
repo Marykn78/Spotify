@@ -10,7 +10,10 @@ const theme =createTheme({
             color:'#fff'
         },
         h2:{
-
+            fontSize:'28px',
+            lineHeight:'38px',
+            fontStyle:'normal',
+            color:'#fff'
         },
         subtitle1:{
             fontSize:'14px',

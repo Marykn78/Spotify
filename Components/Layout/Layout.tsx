@@ -15,7 +15,7 @@ export default function Layout({ children }:AuxProps) {
         <Sidebar />
       </Grid>
       {/* justifyContent={'center'} */}
-      <Grid container item xs={10} bgcolor={'pink'} height={'90vh'} p={2}>
+      <Grid container item xs={10} sx={{background: 'linear-gradient(180deg, #3C3F41 0%, #000000 100%)'}} height={'90vh'} >
         {/* <main>{children}</main> */}
         <Home/>
       </Grid>
