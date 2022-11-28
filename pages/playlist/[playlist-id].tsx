@@ -1,7 +1,7 @@
-function Postsingle (){
+function Playlist (){
     return(
         <div>singlepost</div>
     )
 }
 
-export default Postsingle;
+export default Playlist;
