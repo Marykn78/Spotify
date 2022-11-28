@@ -37,6 +37,13 @@ const theme =createTheme({
             main:'#fff',
         }
     },
+    // tableRow: {
+    //     hover: {
+    //         "&:hover": {
+    //             backgroundColor: '#49bb7b',
+    //         },
+    //     },
+    // }
 })
 
 export default theme;
